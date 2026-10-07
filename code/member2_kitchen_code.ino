@@ -78,7 +78,7 @@ void loop() {
   else 
   {
     digitalWrite(RELAY_PIN, HIGH); 
-    digitalWrite(BUZZER_PIN, LOW);ধ
+    digitalWrite(BUZZER_PIN, LOW);
     Serial.println("[STATUS] Kitchen Safe. All Normal.");
   }
 
